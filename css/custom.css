@@ -1,0 +1,33 @@
+body{
+    margin:0px;
+}
+header{
+    width:100%;
+    background-color: black;
+    color:white;
+    height:60px;
+}
+header ul li{
+    width:25%;
+    color:goldenrod;
+    list-style: none;
+    float:left;
+    text-transform: uppercase;
+    text-align: center;
+}
+header ul{
+    margin-left:0;
+    padding-left: 0;
+}
+#logo{
+    width:20%;
+    height:55px;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+#menu{
+    width:80%;
+    height:60px;
+    float:left;
+}
