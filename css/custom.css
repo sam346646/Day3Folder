@@ -1,33 +1,69 @@
 body{
-    margin:0px;
+    margin: 0%;
 }
 header{
-    width:100%;
+    width: 100%;
     background-color: black;
-    color:white;
-    height:60px;
+    color: white;
+    height: 60px;
+}
+header ul{
+    margin-left:0 ;
+    padding-left: 0;
 }
 header ul li{
-    width:25%;
-    color:goldenrod;
+    width: 25%;
     list-style: none;
-    float:left;
+    float: left;
     text-transform: uppercase;
     text-align: center;
 }
-header ul{
-    margin-left:0;
-    padding-left: 0;
+header ul li a{
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: bold;
 }
-#logo{
-    width:20%;
-    height:55px;
+#logo
+{
+    width: 20%;
+    height: 55px;
     float: left;
     text-align: center;
     padding-top: 5px;
 }
-#menu{
-    width:80%;
-    height:60px;
-    float:left;
+#menu
+{
+    width: 80%;
+    height: 60px;
+    float: left;
+}
+header ul li{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+/*...home...*/
+#home{
+    text-align: center;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+home h1{
+    margin-top: 0;
+
+}
+
+.content_1home{
+    margin-top: 200px;
+    width: 60%;
+    margin: 0 20%;
+    padding-top: 170px;
+}
+
+.subcount1{
+    background-color: rgb(225, 104, 134);
+    border-radius: 20px;
 }
