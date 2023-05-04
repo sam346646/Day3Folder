@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header ul{
+    margin-left:0 ;
+    padding-left: 0;
+}
+header ul li{
+    width: 25%;
+    list-style: none;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+}
+header ul li a{
+    color: rgb(218, 32, 32);
+    text-decoration: none;
+    font-weight: bold;
+}
+#logo
+{
+    width: 20%;
+    height: 55px;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+}
+#menu
+{
+    width: 80%;
+    height: 60px;
+    float: left;
+}
+
+/*...home...*/
+#home{
+    text-align: center;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+}
+#home h1{
+    margin-top: 0;
+
+}
+
+.content_home{
+    margin-top: 200px;
+    width: 60%;
+    margin: 0 20%;
+    padding-top: 120px;
+}
+
+.home_sub_content{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#about{
+    width:100%;
+    height:400px;
+}
+.div_abt{
+    width: 16%;
+    background-color: red;
+    color: wheat;
+    float:left;
+    height: 300px;
+    padding:0 2%;
+}
+.div_abt img{
+    padding-top: 15px;
+    box-shadow: 5px 10px black;
+}
+.mlr{
+    margin: 0 4%;
+}
+.mr{
+    margin-right: 4%;
+}
+#about h1{
+    text-align: center;
+}
+#about_button{
+    background-color: floralwhite;
+    border:none;
+    border-radius: 10px;
+    font-size: 8px;
+    height:15px;
+    color:crimson;
+    font-family: fantasy;
+}
+
+
+#team{
+    width:100%;
+    height:600px;
+}
+.team_content{
+    background-color: coral;
+    height: 450px;
+    padding-top: 50px;
+}
+.teamleft{
+    margin-left: 4%;
+    width:26%;
+    float:left;
+    height:250px;
+    padding:0 2%;
+}
+.teamright{
+    margin-left: 2%;
+    width:60%;
+    margin-right: 4%;
+    float: left;
+}
+
+#contact_content{
+    width:100%;
+    height:400px;
+}
+.contact_content{
+    width:40%;
+    margin:0 4%;
+}
+.contactleft,.contactright{
+    width:20%;
+    float:left;
+    border-radius:5px;
+}
+.contactright{
+    margin-left: 50%;
+}
+label{
+    width:100%;
+    height:40px;
+}
+button{
+    width:50%;
+    background-color: brown;
+    height: 40px;
+    border:none;
+    font-size:22px;
+    color:wheat;
+}
